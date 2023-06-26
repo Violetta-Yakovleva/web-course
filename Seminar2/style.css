@@ -23,5 +23,6 @@ li{
     list-style-type: square;
 }
 .parent{
-    display: inline-block;
+    width: 500px;
+    margin: 0 auto;
 }
