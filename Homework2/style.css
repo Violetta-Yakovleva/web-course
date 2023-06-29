@@ -1,0 +1,18 @@
+img{
+    width: 400px;
+}
+html{
+    background-color: #f5f5f5;
+}
+h1{
+    background-color: #3D96C2;
+    color: white;
+}
+h2{
+    background-color: #DCE4EE;
+    color: #474b51;
+}
+
+p, ul,  ol{
+    color: #5A6062;
+}
