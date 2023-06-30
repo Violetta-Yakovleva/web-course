@@ -7,11 +7,11 @@
 
 //Вариант 2 - с функцией
 
-const celsiy = parseInt(prompt("Введите температуру в градусах Цельсия, С: "));
-alert(`Цельсий: ${celsiy}, Фаренгейт: ${farengeit(celsiy)}`); 
+const celsiy = Number.parseFloat(prompt("Введите температуру в градусах Цельсия, С: ")); //либо использовать +prompt
+alert(`Цельсий, C: ${celsiy}, Фаренгейт, F: ${farengeit(celsiy).toFixed(2)}`); 
 
 function farengeit(celsiy) {
-    return ((celsiy*9/5) +32).toFixed(2);
+    return (celsiy * 9/5) +32;
 }
 
 
